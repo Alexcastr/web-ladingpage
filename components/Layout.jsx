@@ -52,7 +52,7 @@ export const Layout = ({ children, title= "" }) => {
           property="og:description"
           content={`Esta es la página sobre ${title}`}
         />
-        <meta property="og:image" content={`${origin}/image/banner.png`} />
+        
       </Head>{" "}
       <div
         className={`relative min-h-screen bg-gradient-to-t from-primary ${
