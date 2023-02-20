@@ -18,6 +18,7 @@ export const Home = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             target="_blank"
+            rel="noreferrer"
             href="https://forms.gle/4RSiWgLt3H6A9Jht5"
             className="px-3 py-2 btn btn-lg bg-gray-50 rounded-full border border-cyan-600 text-cyan-600 border-cyan-600 hover:bg-cyan-600 hover:text-gray-50 transition duration-500"
           >
@@ -26,6 +27,7 @@ export const Home = () => {
 
           <Link
             target="_blank"
+            rel="noreferrer"
             href="https://my-portfolio-website-alexcastr.vercel.app/#projects_section"
             className="btn btn-lg rounded-full flex gap-2 items-center bg-gray-50 rounded-full border border-cyan-600 text-cyan-600 border-cyan-600 hover:bg-cyan-600 hover:text-gray-50 transition duration-500"
           >

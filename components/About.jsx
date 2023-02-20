@@ -35,6 +35,7 @@ export const About = () => {
               <a
               className="text-base lg:text-lg"
                 target="_blank"
+                rel="noreferrer"
                 href="mailto:castro.t.alex@gmail.com"
                 itemProp="email"
               >
@@ -46,6 +47,7 @@ export const About = () => {
               <a
               className="text-base lg:text-lg"
                 target="_blank"
+                rel="noreferrer"
                 href="https://api.whatsapp.com/send?phone=573186824243&text=Hola, Nececito mas informacion!"
                 itemProp="telephone"
               >

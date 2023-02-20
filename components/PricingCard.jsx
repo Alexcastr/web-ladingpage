@@ -138,6 +138,7 @@ export const PricingCard = () => {
               </ul>
               <Link
               target="_blank"
+              rel="noreferrer"
                 href={item.formSource}
                 className="btn btn-outline flex justify-center items-center w-full"
               >
