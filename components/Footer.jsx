@@ -1,9 +1,13 @@
+import Link from "next/link";
 import { NavLink } from "./NavLink";
 
 export const Footer = () => {
   return (
     <footer className="footer footer-center p-5 bg-base-200 text-base-content rounded">
-      <NavLink className="grid grid-flow-col gap-4" defaultAnkorClass="link link-hover"/>
+      <NavLink
+        className="grid grid-flow-col gap-4"
+        defaultAnkorClass="link link-hover"
+      />
       <div>
         <div className="grid grid-flow-col gap-4">
           <a
@@ -56,10 +60,25 @@ export const Footer = () => {
               <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
             </svg>
           </a>
+          <Link
+            href="https://api.whatsapp.com/send?phone=573186824243&text=Hola, Nececito mas informacion!"
+            legacyBehavior
+          >
+            <a target="_blank">
+              <img
+                src="./whatsapp-icon.png"
+                alt="whatsapp icon"
+                className="w-[1.6rem] h-[1.6rem]"
+              />
+            </a>
+          </Link>
         </div>
       </div>
-      <div>
-        <p>Copyright © 2023 - All right reserved by Alex castro</p>
+      <div className="flex justify-center">
+        <p className="text-base-content">
+          {" "}
+          Copyright © 2023 - Alex Castro - FullStack Developer
+        </p>
       </div>
     </footer>
   );
