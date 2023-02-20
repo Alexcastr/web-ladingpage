@@ -57,7 +57,7 @@ export const FeaturesList = () => {
   return (
     <section id="features">
       <h2 className="text-center text-orange-700 text-4xl font-bold mt-10 mb-5">
-        ¿Estás listo para descubrir el mundo de la programación?{" "}
+        ¿Estás listo para descubrir el mundo de la tecnología y la programación?{" "}
       </h2>
       <p className="text-center text-xl font-bold mb-20 max-w-4xl mx-auto">
         Con mi experiencia en implementación de estrategias de marketing digital

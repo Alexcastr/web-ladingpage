@@ -16,7 +16,7 @@ export const Home = () => {
             ¡Inscríbete!
           </Link>
 
-          <Link target="_blank" href="https://my-portfolio-alexcastr.vercel.app/#projects_section" className="btn btn-lg rounded-full flex gap-2 items-center bg-gray-50 rounded-full border border-cyan-600 text-cyan-600 border-cyan-600 hover:bg-cyan-600 hover:text-gray-50 transition duration-500">
+          <Link target="_blank" href="https://my-portfolio-website-alexcastr.vercel.app/#projects_section" className="btn btn-lg rounded-full flex gap-2 items-center bg-gray-50 rounded-full border border-cyan-600 text-cyan-600 border-cyan-600 hover:bg-cyan-600 hover:text-gray-50 transition duration-500">
             {" "}
             <span>
               <AiOutlinePlayCircle className="w-12 h-12 text-gray-800" />

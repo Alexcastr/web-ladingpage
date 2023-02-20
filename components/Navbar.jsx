@@ -12,7 +12,7 @@ export const Navbar = ({ openNavbar, handleNavbar, setTheme, theme }) => {
   return (
     <nav className="sticky top-0 w-full h-20 shadow-md flex md:flex-row justify-around bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 z-40">
       <img
-        src="./LogoAlexander.png"
+        src={ theme=== "light"?"./LogoAlexander.png": "./LogoAlexander.jpg"}
         className="my-auto ml-10 sm:ml-0 w-20 h-10 text-white"
       />
       <div className="my-auto">

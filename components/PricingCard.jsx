@@ -4,29 +4,29 @@ import Link from "next/link";
 const priceContent = [
   {
     id: "1",
-    title: "Desarrollador front-end junior",
+    title: "Desarrollador web front-end junior",
     price: "$150.000",
     priceSpan: "/Mes",
     content: [
       "Enfoque en proyectos prácticos y divertidos",
-      "Enseñanza basada en proyectos",
-      "Introducción a diferentes lenguajes de programación",
+      "Introducción a diferentes lenguajes de programación ( HTML, CSS, JS )",
       "Desarrollo de habilidades técnicas y de resolución de problemas",
-      "Trabajo en equipo.",
+      "Manejo de herramientas de desarrollo web",
+      "Introducción a la libreria React",
     ],
     formSource: "https://forms.gle/LtnwP7YY6FhaxVp98"
   },
   {
     id: "2",
-    title: "Tecnología para todos",
+    title: "Tecnología productiva: curso básico",
     price: "$150.000",
     priceSpan: "/Mes",
     content: [
       "Introducción a la informática",
       "Fundamentos de la tecnología de la información",
-      "Manejo de herramientas de ofimática, productividad y presentaciones digitales",
+      "Herramientas de productividad y presentaciones digitales",
+      "Herramientas de ofimática",
       "Introducción a la programación",
-      "Introducción a la web",
     ],
     formSource: "https://forms.gle/Yhd6xHnci7pmjQ3h8"
   },
@@ -44,7 +44,7 @@ export const PricingCard = () => {
             className="max-w-sm border border-slate-500 rounded-xl shadow-lg mx-auto sm:mx-0"
           >
             <div className="p-5">
-              <h1>{item.title}</h1>
+              <h1 className="text-left pb-6">{item.title}</h1>
               <p className="font-extrabold text-4xl">
                 {item.price}
                 <span className="text-sm font-medium">{item.priceSpan}</span>
