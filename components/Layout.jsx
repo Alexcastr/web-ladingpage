@@ -40,6 +40,7 @@ export const Layout = ({ children, title= "" }) => {
     <>
       <Head>
         <title>{title}</title>
+        <link rel="icon" type="image.jpg" href="./LogoAlexander.jpg"/>
         <meta name="author" content="Alex Castro" />
         <meta name="description" content="Cursos de desarrollo web" />
         <meta name="keywords" content="landing, front end, desarrollo" />
