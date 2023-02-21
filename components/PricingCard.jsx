@@ -63,7 +63,7 @@ export const PricingCard = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-base font-normal leading-tight text-gray-100">
+                  <span className="text-sm md:text-base font-normal leading-tight text-gray-100">
                     {item.content[0]}
                   </span>
                 </li>
@@ -80,7 +80,7 @@ export const PricingCard = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-base font-normal leading-tight text-gray-100">
+                  <span className="text-sm md:text-base font-normal leading-tight text-gray-100">
                     {item.content[1]}
                   </span>
                 </li>
@@ -97,7 +97,7 @@ export const PricingCard = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-base font-normal leading-tight text-gray-100">
+                  <span className="text-sm md:text-base font-normal leading-tight text-gray-100">
                     {item.content[2]}
                   </span>
                 </li>
@@ -114,7 +114,7 @@ export const PricingCard = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-base font-normal leading-tight text-gray-100">
+                  <span className="text-sm md:text-base font-normal leading-tight text-gray-100">
                     {item.content[3]}
                   </span>
                 </li>
@@ -131,7 +131,7 @@ export const PricingCard = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span className="text-base font-normal leading-tight text-gray-100">
+                  <span className="text-sm md:text-base font-normal leading-tight text-gray-100">
                     {item.content[4]}
                   </span>
                 </li>

@@ -4,7 +4,7 @@ import { PhoneIcon, MailIcon } from '@heroicons/react/solid'
 
 export const About = () => {
   return (
-    <section id="about" className="py-10 md:px-4">
+    <section id="about" className="py-10 sm:px-4">
       <h2 className="text-center font-extrabold text-3xl lg:text-2xl pb-10 flex content-center justify-center max-w-md mx-auto">
         Mejora tus habilidades tecnológicas
       </h2>
@@ -18,7 +18,7 @@ export const About = () => {
         />
         <div>
           <h3 className="font-bold text-xl text-orange-700">
-            MI COMPROMISO CON TIGO
+            MI COMPROMISO CONTIGO
           </h3>
           <h4 className="text-xl sm:text-2xl lg:text-2xl sm:font-extrabold py-2">
             Desarrollador de sitios web <br /> y estratega de marketing digital
@@ -31,9 +31,9 @@ export const About = () => {
           </p>
           <div className="flex justify-start font-medium text-sm gap-2 sm:gap-4 my-6">
             <div className="flex justify-center gap-1 text-white duration-300 hover:text-orange-600">
-              <MailIcon className="w-6 h-6 my-auto" aria-hidden="true" />
+              <MailIcon className="w-4 h-4 sm:w-6 sm:h-6 my-auto" aria-hidden="true" />
               <a
-              className="text-base lg:text-lg"
+              className="text-xs sm:text-base lg:text-lg"
                 target="_blank"
                 rel="noreferrer"
                 href="mailto:castro.t.alex@gmail.com"
@@ -43,9 +43,9 @@ export const About = () => {
               </a>
             </div>
             <div className="flex justify-center gap-1 text-white duration-300 hover:text-orange-600">
-              <PhoneIcon className="w-6 h-5 my-auto" aria-hidden="true" />
+              <PhoneIcon className="w-4 h-4 sm:w-6 sm:h-5 my-auto" aria-hidden="true" />
               <a
-              className="text-base lg:text-lg"
+              className="text-xs sm:text-base lg:text-lg"
                 target="_blank"
                 rel="noreferrer"
                 href="https://api.whatsapp.com/send?phone=573186824243&text=Hola, Nececito mas informacion!"
