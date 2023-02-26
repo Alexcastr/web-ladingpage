@@ -5,8 +5,8 @@ const priceContent = [
   {
     id: "1",
     title: "Desarrollador web front-end junior",
-    price: "$150.000",
-    priceSpan: "/Mes",
+    price: "$10.000",
+    priceSpan: "/clase",
     content: [
       "Enfoque en proyectos prácticos y divertidos",
       "Introducción a diferentes lenguajes de programación ( HTML, CSS, JS )",
@@ -19,8 +19,8 @@ const priceContent = [
   {
     id: "2",
     title: "Tecnología productiva: curso básico",
-    price: "$150.000",
-    priceSpan: "/Mes",
+    price: "$10.000",
+    priceSpan: "/clase",
     content: [
       "Introducción a la informática",
       "Fundamentos de la tecnología de la información",
