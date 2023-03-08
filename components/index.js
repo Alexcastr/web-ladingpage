@@ -5,7 +5,6 @@ export * from "./FeaturesList";
 export * from "./FeaturesCard";
 export * from "./Testimonials";
 export * from "./About";
-export * from "./CallToAction";
 export * from "./PricingCard";
 export * from "./NavLink";
 export * from "./Footer";
